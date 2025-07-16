@@ -1,0 +1,48 @@
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-image: url("car.webp");
+  background-size: cover;         
+  background-position: center;    
+  background-repeat: no-repeat;   
+  background-attachment: fixed;   
+}
+h1{
+  text-align: center;
+  color: rgb(2, 12, 27);
+  margin: bottom 20px; ;
+}
+p{
+  text-align: center;
+  color: rgb(224, 175, 205);
+  margin: bottom 10px; ;
+}
+h2{
+  text-align: center;
+  color: rgb(235, 96, 96);
+  margin: bottom 15px; ;
+}
+
+.form-container {
+  background-color: rgba(255, 255, 255, 0.8);  
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+input {
+  display: block;
+  width: 100%;
+  padding: 7px;
+  margin: 7px 0;
+}
+
+
+button {
+  padding: 20px 25px;
+  cursor: pointer;
+}

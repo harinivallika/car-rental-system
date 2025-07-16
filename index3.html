@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Available Cars</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="form-container" id="carSection">
+    <h2>Available Cars</h2>
+    <ul id="carList"></ul>
+
+    <h3>Rent a Car</h3>
+    <form>
+      <input type="number" id="carId" placeholder="Car ID" required />
+      <input type="date" id="startDate" required />
+      <input type="date" id="endDate" required />
+      <button type="button" onclick="rentCar()">Book</button>
+    </form>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
